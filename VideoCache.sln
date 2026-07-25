@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C62D17DF-0F9A-4FF5-9D93-E62D4BA59085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCache.Api", "src\VideoCache.Api\VideoCache.Api.csproj", "{060DD13D-A92A-459E-BD1F-756A72C4CCC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1B03D647-D7B7-4727-8339-B2BDE45AC456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCache.UnitTests", "tests\VideoCache.UnitTests\VideoCache.UnitTests.csproj", "{047B459B-24EE-4A02-B737-AA1C9891FE93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060DD13D-A92A-459E-BD1F-756A72C4CCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060DD13D-A92A-459E-BD1F-756A72C4CCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060DD13D-A92A-459E-BD1F-756A72C4CCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060DD13D-A92A-459E-BD1F-756A72C4CCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047B459B-24EE-4A02-B737-AA1C9891FE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047B459B-24EE-4A02-B737-AA1C9891FE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047B459B-24EE-4A02-B737-AA1C9891FE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047B459B-24EE-4A02-B737-AA1C9891FE93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{060DD13D-A92A-459E-BD1F-756A72C4CCC4} = {C62D17DF-0F9A-4FF5-9D93-E62D4BA59085}
+		{047B459B-24EE-4A02-B737-AA1C9891FE93} = {1B03D647-D7B7-4727-8339-B2BDE45AC456}
+	EndGlobalSection
+EndGlobal
