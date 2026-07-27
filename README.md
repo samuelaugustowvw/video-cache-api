@@ -6,9 +6,9 @@ O escopo é pequeno de propósito (dois endpoints), então o foco aqui foi fazer
 
 ## 🔗 Aplicação no ar
 
-- API: http://SEU-ELASTIC-IP
-- Swagger: http://SEU-ELASTIC-IP/swagger
-- Health check: http://SEU-ELASTIC-IP/health/ready
+- API: http://52.67.37.59
+- Swagger: http://52.67.37.59/swagger
+- Health check: http://52.67.37.59/health/ready
 
 > Use `http://`, não `https://` — o ambiente não tem certificado SSL configurado.
 
@@ -73,7 +73,7 @@ Retorna `200` com os dados se existir, `404` se não existir.
 Só precisa do Docker instalado.
 
 ```bash
-git clone https://github.com/SEU-USUARIO/video-cache-api.git
+git clone https://github.com/samuelaugustowvw/video-cache-api.git
 cd video-cache-api
 cp .env.example .env
 docker compose up --build -d
